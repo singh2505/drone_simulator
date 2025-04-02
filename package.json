@@ -1,0 +1,14 @@
+{
+  "name": "vecros_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "npm run dev --prefix client & npm run dev --prefix server",
+  "build": "npm install --prefix client && npm install --prefix server && npm run build --prefix client",
+  "start": "node server.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
